@@ -1,0 +1,93 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: #ff4500;
+    color: white;
+}
+main {
+    background-color: #fff;
+}
+aside {
+    background-color: #eee;
+}
+header, main, aside, footer {
+    padding: 15px;
+}
+main, aside {
+    margin: 10px;
+}
+main, aside {
+    border: 1px solid #ddd;
+}
+a:hover {
+    color: #ff4500;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+}
+nav a:hover {
+    color: #ffd700;
+}
+main p::first-letter {
+    font-size: 200%;
+    color: #ff4500;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+.main-aside{
+    display: flex;
+    flex-wrap: wrap;
+}
+main {
+    flex: 3;
+}
+aside {
+    flex: 1;
+}
+main p{
+    text-align: justify;
+}
+aside ul li{
+    list-style:  none;
+    width: fit-content;
+}
+.aside ul li{
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+    margin: 8px 0px;
+padding: 30px 20px;
+}
+.icons i{
+    font-size: xx-large;
+    float: right;
+    padding: 0px 40px;
+    margin: 0px 30px;
+}
+
+
+/* 
+@media screen and (max-width: 768px)  {
+   main, aside {flex: 1;}
+   .main-aside{display: block;}
+   main {order: 1;}
+   aside {order: 2;}
+   
+} */
+
+
+   
+  
